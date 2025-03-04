@@ -1,4 +1,3 @@
-import { calculatePercentage } from "../../../board/helper/math";
 import { SymbolStatusEvents } from "../../enums/index";
 import { Spine } from "@esotericsoftware/spine-pixi-v8";
 import { Container, EventEmitter, Sprite, Texture } from "pixi.js";
@@ -20,7 +19,7 @@ export class SlotSymbol extends Container {
     posY: number,
     public displayWidth: number,
     public displayHeight: number,
-    padding: number = 0
+    public padding: number = 0
   ) {
     super();
     this.eventEmitter = new EventEmitter();

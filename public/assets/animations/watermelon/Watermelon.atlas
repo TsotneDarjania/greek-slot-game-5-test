@@ -1,0 +1,9 @@
+Watermelon.png
+size:1978,1968
+filter:Linear,Linear
+pma:true
+Rectangle 5 copy 7
+bounds:2,1758,208,208
+watermelon
+bounds:212,2,1964,1764
+rotate:90

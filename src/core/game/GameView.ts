@@ -4,15 +4,12 @@ import {
   ContainerChild,
   Sprite,
   Texture,
-  Application,
 } from "pixi.js";
 import { initDevtools } from "@pixi/devtools";
 import { GameLoader } from "./loader";
 import { gameAssets } from "../config/loadData.ts";
 import { Board } from "./board/index.ts";
 import { boardDataConfig } from "./config/boardConfig.ts";
-import { Spine } from "@esotericsoftware/spine-pixi-v8";
-import { CustomSprite } from "../components/customSprite.ts";
 
 export class GameView extends PixiApplication {
   private gameLoader!: GameLoader;

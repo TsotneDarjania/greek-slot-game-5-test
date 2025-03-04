@@ -1,0 +1,17 @@
+grapes.png
+size:912,698
+filter:Linear,Linear
+pma:true
+Group 3
+bounds:212,2,694,698
+rotate:90
+Rectangle 5 copy 7
+bounds:2,488,208,208
+
+grapes_2.png
+size:1688,1700
+filter:Linear,Linear
+pma:true
+Layer 533
+bounds:2,2,1684,1696
+offsets:0,0,1685,1696
